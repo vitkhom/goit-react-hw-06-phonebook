@@ -1,0 +1,25 @@
+.contacts__item {
+  display: flex;
+  align-items: inherit;
+  width: 320px;
+  height: 40px;
+  border: solid 1px blue;
+
+  .contacts__name {
+    display: block;
+    width: 150px;
+    margin: auto 0;
+  }
+
+  .contacts__number {
+    width: 150px;
+    display: block;
+    margin: auto 0;
+  }
+
+  .removeButton {
+    display: block;
+    width: 40px;
+    border: none;
+  }
+}
