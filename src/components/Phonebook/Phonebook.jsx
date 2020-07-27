@@ -1,23 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import ContactForm from '../ContactForm';
-import Section from '../../common/Section';
 import Filter from '../Filter';
 import ContactList from '../ContactList';
+import Section from '../../common/Section';
 
-class Phonebook extends Component {
-  render() {
-    return (
-      <>
-        <ContactForm />
+const Phonebook = () => {
+  return (
+    <>
+      <ContactForm />
 
-        <Section title="Contacts">
-          <Filter />
-          <ContactList />
-        </Section>
-      </>
-    );
-  }
-}
+      <Section title="Contacts">
+        <Filter />
+        <ContactList />
+      </Section>
+    </>
+  );
+};
 
 export default Phonebook;
